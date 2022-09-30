@@ -66,6 +66,6 @@ public:
         const Vec3f &ec = 0) : 
         center(c), radius(r), radius2(r * r), surfaceColor(sc), emissionColor(ec), 
         transparency(transp), reflection(refl) 
-    { /* empty */ } 
-  
-  
+    { /* empty */ }
+ 
+};
