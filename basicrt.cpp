@@ -84,6 +84,13 @@ public:
  
 };
 
+#define MAX_RAY_DEPTH 5 
+ 
+float mix(const float &a, const float &b, const float &mix) 
+{ 
+    return b * mix + a * (1 - mix); 
+}
+
 void render(const std::vector<Sphere> &spheres) 
 { 
     
